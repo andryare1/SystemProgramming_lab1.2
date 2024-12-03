@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0019AEA2CA6DAFE00578959 /* Smartphone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0019AE92CA6DAFE00578959 /* Smartphone.cpp */; };
+		C0019AED2CA6DB6700578959 /* Laptop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0019AEC2CA6DB6700578959 /* Laptop.cpp */; };
+		C0019AF02CA6DBD700578959 /* TV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0019AEF2CA6DBD700578959 /* TV.cpp */; };
+		C02552AB2C9D51A1001A3B0F /* ComputerNetworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C02552AA2C9D51A1001A3B0F /* ComputerNetworks.cpp */; };
 		C0A35F652C944E1300ECBB30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A35F642C944E1300ECBB30 /* main.cpp */; };
+		C0A35F6E2C94570500ECBB30 /* Browsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A35F6C2C94570500ECBB30 /* Browsers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C0019AE82CA6DAFE00578959 /* Smartphone.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Smartphone.hpp; sourceTree = "<group>"; };
+		C0019AE92CA6DAFE00578959 /* Smartphone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Smartphone.cpp; sourceTree = "<group>"; };
+		C0019AEB2CA6DB6700578959 /* Laptop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Laptop.hpp; sourceTree = "<group>"; };
+		C0019AEC2CA6DB6700578959 /* Laptop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Laptop.cpp; sourceTree = "<group>"; };
+		C0019AEE2CA6DBD700578959 /* TV.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TV.hpp; sourceTree = "<group>"; };
+		C0019AEF2CA6DBD700578959 /* TV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TV.cpp; sourceTree = "<group>"; };
+		C02552AA2C9D51A1001A3B0F /* ComputerNetworks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComputerNetworks.cpp; sourceTree = "<group>"; };
 		C0A35F612C944E1300ECBB30 /* lab1_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab1_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A35F642C944E1300ECBB30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C0A35F6B2C9456E300ECBB30 /* Browsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Browsers.h; sourceTree = "<group>"; };
+		C0A35F6C2C94570500ECBB30 /* Browsers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Browsers.cpp; sourceTree = "<group>"; };
+		C0C65F492C9D56200005BE96 /* ComputerNetworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerNetworks.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				C0A35F642C944E1300ECBB30 /* main.cpp */,
+				C0A35F6B2C9456E300ECBB30 /* Browsers.h */,
+				C0019AE82CA6DAFE00578959 /* Smartphone.hpp */,
+				C0019AE92CA6DAFE00578959 /* Smartphone.cpp */,
+				C0019AEB2CA6DB6700578959 /* Laptop.hpp */,
+				C0019AEC2CA6DB6700578959 /* Laptop.cpp */,
+				C0019AEE2CA6DBD700578959 /* TV.hpp */,
+				C0019AEF2CA6DBD700578959 /* TV.cpp */,
+				C0A35F6C2C94570500ECBB30 /* Browsers.cpp */,
+				C02552AA2C9D51A1001A3B0F /* ComputerNetworks.cpp */,
+				C0C65F492C9D56200005BE96 /* ComputerNetworks.h */,
 			);
 			path = lab1_2;
 			sourceTree = "<group>";
@@ -119,7 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0019AEA2CA6DAFE00578959 /* Smartphone.cpp in Sources */,
+				C0A35F6E2C94570500ECBB30 /* Browsers.cpp in Sources */,
 				C0A35F652C944E1300ECBB30 /* main.cpp in Sources */,
+				C02552AB2C9D51A1001A3B0F /* ComputerNetworks.cpp in Sources */,
+				C0019AED2CA6DB6700578959 /* Laptop.cpp in Sources */,
+				C0019AF02CA6DBD700578959 /* TV.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
